@@ -20,6 +20,7 @@
   "scripts": {
     "start": "rsbuild dev",
     "build": "rsbuild build",
+    "build:gh-pages": "ASSET_PREFIX=/react_mmai rsbuild build",
     "preview": "rsbuild preview",
     "test:variants": "node tests/gameclass.test.mjs",
     "test:engine": "node tests/engine_referee.test.mjs",
